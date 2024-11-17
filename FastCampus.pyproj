@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f03340e2-575c-4985-89b0-e395816eaf43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FastCampus.py</StartupFile>
+    <StartupFile>Recursive\Recursive.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FastCampus.py" />
+    <Compile Include="Recursive\Recursive.py" />
+    <Compile Include="Sort\BubbleSort.py" />
+    <Compile Include="Sort\InsertSort.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recursive\" />
+    <Folder Include="Sort\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sort\SelectionSort.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
