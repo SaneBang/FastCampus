@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f03340e2-575c-4985-89b0-e395816eaf43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Search\BinarySearch.py</StartupFile>
+    <StartupFile>AdvacedGraph\Daikstra.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdvacedGraph\Daikstra.py" />
     <Compile Include="AdvancedSort\MergeSort.py" />
     <Compile Include="AdvancedSort\PivotSort.py" />
     <Compile Include="DP\DP.py" />
+    <Compile Include="Graph\BFS.py" />
+    <Compile Include="Graph\DFS.py" />
+    <Compile Include="Greedy\Greedy.py" />
     <Compile Include="Recursive\Recursive.py" />
     <Compile Include="Search\BinarySearch.py" />
     <Compile Include="Sort\BubbleSort.py" />
@@ -32,6 +36,9 @@
   <ItemGroup>
     <Folder Include="DP\" />
     <Folder Include="AdvancedSort\" />
+    <Folder Include="Graph\" />
+    <Folder Include="Greedy\" />
+    <Folder Include="AdvacedGraph\" />
     <Folder Include="Search\" />
     <Folder Include="Recursive\" />
     <Folder Include="Sort\" />
